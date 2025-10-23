@@ -7,7 +7,7 @@ const Home = () => {
       {/* Header */}
       <header className="w-full max-w-4xl text-center mt-10">
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-          Welcome to Nexus Chat
+          Welcome to NexusBot
         </h1>
         <p className="text-lg md:text-xl text-gray-700">
           A full-stack Retrieval Augmented Generation chatbot built with
