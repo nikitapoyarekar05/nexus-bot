@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Nexus Chatbot built using React, Next.js, AI SDK, Neon, Drizzle, Clerk
 
-## Getting Started
+A full-stack Retrieval-Augmented Generation (RAG) chatbot built with Next.js, AI SDK, Drizzle ORM, and Neon Postgres.  
+It allows users to chat with AI that can retrieve information from a custom knowledge base.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tech Stack
+- **Frontend:** React, Next.js 14 (App Router), Tailwind CSS, AI Elements
+- **Backend:** Next.js API routes, AI SDK (for embeddings, retrieval, and streaming)
+- **Database:** Neon (PostgreSQL with pgvector)
+- **ORM:** Drizzle ORM
+- **Auth:** Clerk
+- **Deployment:** Vercel / AWS / Render (your choice)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
+- Retrieval-Augmented Generation (RAG) pipeline  
+- Upload and chunk custom data sources  
+- Embeddings generation and vector search with Neon  
+- Streaming AI chat responses  
+- Authentication and user sessions via Clerk  
+- Full-stack TypeScript setup with Drizzle ORM  
+- Clean and responsive chat UI built with AI Elements
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## Screenshots
+![Chatbot UI](./output/Nexus%20chatbot.png)
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 💡 Application
+This RAG Chatbot can be applied in a variety of real-world scenarios where context-aware and domain-specific answers are required:
+1. **Customer Support Automation**  
+   - Integrate with your website or product to provide instant, accurate answers to frequently asked questions using your internal knowledge base.
+2. **Internal Knowledge Management**  
+   - Employees can query company documents, policies, or technical manuals quickly, reducing time spent searching for information.
+3. **Education & Training**  
+   - Students or trainees can ask questions about course materials, manuals, or technical content and get precise, sourced responses.
+4. **Content Retrieval for SaaS or Enterprise Apps**  
+   - Enhance your product by enabling users to interact with large sets of documentation, wikis, or reports through a chat interface.
+5. **Personal Knowledge Assistant**  
+   - Users can feed in personal notes, research papers, or PDFs to create a smart assistant that answers questions based on their own data.
+     
+> Essentially, any scenario where users need AI to provide accurate answers grounded in a custom dataset or documents can benefit from this chatbot.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
