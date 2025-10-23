@@ -30,6 +30,8 @@ Home page
 Chatbot UI
 ![Chatbot UI](./output/chatBotUI.png)
 
+## Documentation
+Click [here](https://deepwiki.com/nikitapoyarekar05/nexus-bot/1-overview) for detailed documentation
 
 ## 💡 Application
 This RAG Chatbot can be applied in a variety of real-world scenarios where context-aware and domain-specific answers are required:
