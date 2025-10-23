@@ -24,7 +24,7 @@ It allows users to chat with AI that can retrieve information from a custom know
 
 
 ## Screenshots
-![Chatbot UI](./output/Nexus%20chatbot.png)
+![Chatbot UI](./output/chatBotUI.png)
 
 
 ## 💡 Application
