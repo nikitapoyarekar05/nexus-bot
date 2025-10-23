@@ -9,7 +9,7 @@ A full-stack Retrieval-Augmented Generation (RAG) chatbot built with Next.js, AI
 - **Database:** Neon (PostgreSQL with pgvector)
 - **ORM:** Drizzle ORM
 - **Auth:** Clerk
-- **Deployment:** Vercel / AWS / Render (your choice)
+- **Deployment:** None
 
 
 ## Features
