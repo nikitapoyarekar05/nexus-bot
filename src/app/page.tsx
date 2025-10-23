@@ -60,7 +60,7 @@ const Home = () => {
           href="/chat"
           className="inline-block bg-black text-white font-semibold px-8 py-4 rounded-lg shadow-md transition"
         >
-          Try the Chatbot
+          Try NexusBot
         </Link>
       </section>
 
