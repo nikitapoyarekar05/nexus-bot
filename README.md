@@ -1,7 +1,6 @@
-# Nexus Chatbot built using React, Next.js, AI SDK, Neon, Drizzle, Clerk
+# Nexus Chatbot
 
-A full-stack Retrieval-Augmented Generation (RAG) chatbot built with Next.js, AI SDK, Drizzle ORM, and Neon Postgres.  
-It allows users to chat with AI that can retrieve information from a custom knowledge base.
+A full-stack Retrieval-Augmented Generation (RAG) chatbot built with Next.js, AI SDK, Drizzle ORM, and Neon Postgres. It allows users to chat with AI that can retrieve information from a custom knowledge base.
 
 
 ## Tech Stack
