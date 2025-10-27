@@ -47,4 +47,5 @@ This RAG Chatbot can be applied in a variety of real-world scenarios where conte
      
 > Essentially, any scenario where users need AI to provide accurate answers grounded in a custom dataset or documents can benefit from this chatbot.
 
-
+## Author
+Built with ❤️ by [@nikitapoyarekar05](https://github.com/nikitapoyarekar05)
